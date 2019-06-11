@@ -12,4 +12,11 @@ public class Add10001Test {
 		assertEquals(res,1);
 	}
 
+	        @Test
+        public void mayor2000() {
+                int res=App.add("1,2001");
+                assertEquals(res,1);
+        }
+
+
 }
